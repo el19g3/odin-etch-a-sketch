@@ -13,4 +13,5 @@
       height: calc(100vh / 16); /* Divide the container height by 16 */
       box-sizing: border-box; /* Include border in the element's total width and height */
       border: 1px solid blueviolet; /* Optional: border for visualization */
+      transition: background-color 0.5s;
   }
