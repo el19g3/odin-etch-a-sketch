@@ -15,3 +15,23 @@
       border: 1px solid blueviolet; /* Optional: border for visualization */
       transition: background-color 0.5s;
   }
+
+
+  .gridButton {
+    background-color: #4CAF50; /* Green background */
+    border: none;              /* Remove borders */
+    color: white;             /* White text */
+    padding: 15px 32px;      /* Padding for spacing */
+    text-align: center;       /* Center text */
+    text-decoration: none;     /* Remove underline */
+    display: inline-block;     /* Inline-block for layout */
+    font-size: 16px;          /* Font size */
+    margin: 4px 2px;         /* Margin for spacing */
+    cursor: pointer;          /* Pointer cursor on hover */
+    border-radius: 4px;      /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.gridButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

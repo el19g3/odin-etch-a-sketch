@@ -24,3 +24,13 @@ hoverDivs.forEach(squareDiv => {
             squareDiv.style.backgroundColor = "white";
       });
 })
+
+
+//Create prompt button
+
+const button = document.createElement("button");
+button.textContent = "Set grid size";
+button.className = "gridButton";
+
+const body = document.querySelector("body");
+body.prepend(button);
